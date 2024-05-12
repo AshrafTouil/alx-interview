@@ -1,4 +1,5 @@
-nimum Operations
+#!/usr/bin/python3
+""" Minimum Operations
     """
 
 
@@ -18,3 +19,4 @@ def minOperations(n: int) -> int:
     if len(body) != n:
         return 0
     return op
+
